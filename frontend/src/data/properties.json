@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "FirstName": "Hienadź",
+    "MiddleName": "",
+    "LastName": "Budkoŭski",
+    "Specialist": "Tech lead",
+    "Rate": "6,438 BYN"
+  },
+  {
+    "Id": 2,
+    "FirstName": "Nikolay",
+    "MiddleName": "",
+    "LastName": "Ivanov",
+    "Specialist": "Software engineer",
+    "Rate": "150,000 RUB"
+  },
+  {
+    "Id": 3,
+    "FirstName": "Ekaterina",
+    "MiddleName": "",
+    "LastName": "Grazhdankina",
+    "Specialist": "Intern",
+    "Rate": "30,000 RUB"
+  }
+]
