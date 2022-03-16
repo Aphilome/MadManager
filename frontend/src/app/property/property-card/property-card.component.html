@@ -1,8 +1,23 @@
 <div class="card">
+  <div class="card-img-wrapper">
+    <img class="card-img-top m-0 propImg img-thumbnail" src="assets/images/specialistIcons/011-web.png">
+    <ul class="list-inline text-center member-icons animate">
+      <li class="list-inline-item">
+        <button class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+      </li>
+      <li class="list-inline-item">
+        <button class="btn btn-primary"><i class="fa-solid fa-id-badge"></i></button>
+      </li>
+    </ul>
+
+
+  </div>
   <h1 class="name-body p-1 text-nowrap text-truncate"> {{property.Specialist}}</h1>
-    <div class="card-body p-2">
-      <img class="m-1 propImg img-thumbnail" src="assets/images/specialistIcons/011-web.png">
-      <h2 class="full-name text-nowrap text-truncate"> {{property.FirstName}} {{property.LastName}}</h2>
-      <h3 class="rate text-nowrap text-truncate">{{property.Rate}} {{property.Currency}}</h3>
-    </div>
+
+
+  <div class="card-body p-2">
+
+    <h2 class="full-name text-nowrap text-truncate"> {{property.FirstName}} {{property.LastName}}</h2>
+    <h3 class="rate text-nowrap text-truncate">{{property.Rate}} {{property.Currency}}</h3>
+  </div>
 </div>
