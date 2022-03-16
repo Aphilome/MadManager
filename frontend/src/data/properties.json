@@ -5,7 +5,8 @@
     "MiddleName": "",
     "LastName": "Budkoŭski",
     "Specialist": "Tech lead",
-    "Rate": "6,438 BYN"
+    "Rate": 6438.000,
+    "Currency": "BYN"
   },
   {
     "Id": 2,
@@ -13,7 +14,8 @@
     "MiddleName": "",
     "LastName": "Ivanov",
     "Specialist": "Software engineer",
-    "Rate": "150,000 RUB"
+    "Rate": 150000.000,
+    "Currency": "RUB"
   },
   {
     "Id": 3,
@@ -21,6 +23,7 @@
     "MiddleName": "",
     "LastName": "Grazhdankina",
     "Specialist": "Intern",
-    "Rate": "30,000 RUB"
+    "Rate": 30000.000,
+    "Currency": "RUB"
   }
 ]

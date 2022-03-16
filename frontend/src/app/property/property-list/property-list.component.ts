@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {HttpClient} from "@angular/common/http";
+import {MadHunterService} from "src/app/services/mad-hunter.service";
+import {IProperty} from "../IProperty.interface";
 
 @Component({
   selector: 'app-property-list',
@@ -7,19 +8,20 @@ import {HttpClient} from "@angular/common/http";
   styleUrls: ['./property-list.component.css']
 })
 export class PropertyListComponent implements OnInit {
-  properties: any;
 
-  constructor(private http:HttpClient) {
-    this.properties = [];
-  }
+  properties!: Array<IProperty>;
 
-  ngOnInit(): void {
-    this.http.get('data/properties.json').subscribe(
-      data =>{
+  constructor(private madHunter: MadHunterService) { }
+
+   ngOnInit(): void {
+    this.madHunter.getAllProperties().subscribe(
+      data=>{
         this.properties = data;
-        console.log(data)
+        console.log(data);
+      }, error => {
+        console.log('httpError');
+        console.log(error);
       }
     );
   }
-
 }
