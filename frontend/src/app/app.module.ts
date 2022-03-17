@@ -9,10 +9,13 @@ import { PropertyListComponent } from './property/property-list/property-list.co
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import {MadHunterService} from "./services/mad-hunter.service";
 import { AddPropertyComponent } from './property/add-property/add-property.component';
+import { PropertyDetailComponent } from './property/property-detail/property-detail.component';
 
 const appRoutes: Routes = [
   {path: '', component: PropertyListComponent},
-  {path: 'add-property', component: AddPropertyComponent}
+  {path: 'employee-property', component: AddPropertyComponent},
+  {path: 'list-property', component: AddPropertyComponent},
+  {path: 'property-detail/:id', component: PropertyDetailComponent},
 ]
 
 @NgModule({
@@ -21,7 +24,8 @@ const appRoutes: Routes = [
     PropertyCardComponent,
     PropertyListComponent,
     NavBarComponent,
-    AddPropertyComponent
+    AddPropertyComponent,
+    PropertyDetailComponent
   ],
   imports: [
     BrowserModule,
