@@ -1,6 +1,7 @@
 <div class="card">
   <div class="card-img-wrapper">
-    <img class="card-img-top m-0 propImg img-thumbnail" src="assets/images/specialistIcons/011-web.png">
+    <img *ngIf="property.Image" class="card-img-top m-0 propImg img-thumbnail" src="assets/images/specialistIcons/{{property.Image}}.png">
+    <img *ngIf="!property.Image" class="card-img-top m-0 propImg img-thumbnail" src="assets/images/specialistIcons/default.png">
     <ul class="list-inline text-center member-icons animate">
       <li class="list-inline-item">
         <button class="btn btn-primary" routerLink="/property-detail/{{property.Id}}"><i class="fa-solid fa-pen-to-square"></i></button>

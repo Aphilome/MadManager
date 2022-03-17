@@ -11,12 +11,12 @@ export class MadHunterService {
 
   constructor(private http: HttpClient) { }
 
-  getAllProperties(): Observable<IProperty[]>{
+  getAllProperties(typeOfEmployment: number): Observable<IProperty[]>{
     return this.http.get('data/properties.json').pipe(
       map((data: any) => {
         const propertiesArray: Array<IProperty> = [];
         for (const id in data) {
-          if (data.hasOwnProperty(id)) {
+          if (data.hasOwnProperty(id) && (data[id].TypeOfEmployment === typeOfEmployment || typeOfEmployment === 0)) {
             propertiesArray.push(data[id]);
           }
         }

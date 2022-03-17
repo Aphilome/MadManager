@@ -1,29 +1,68 @@
 [
   {
     "Id": 1,
-    "FirstName": "Hienadź",
+    "TypeOfEmployment": 2,
+    "FirstName": "Matthew",
     "MiddleName": "",
-    "LastName": "Budkoŭski",
-    "Specialist": "Tech lead",
-    "Rate": 6438.000,
-    "Currency": "BYN"
+    "LastName": "Parks",
+    "Specialist": "Engineer",
+    "Rate": 73800.000,
+    "Currency": "RUB",
+    "Image": "001-engineer"
   },
   {
     "Id": 2,
-    "FirstName": "Nikolay",
+    "TypeOfEmployment": 1,
+    "FirstName": "Hienadź",
     "MiddleName": "",
-    "LastName": "Ivanov",
-    "Specialist": "Software engineer",
-    "Rate": 150000.000,
-    "Currency": "RUB"
+    "LastName": "Budkoŭski",
+    "Specialist": "Astronaut",
+    "Rate": 6438.000,
+    "Currency": "BYN",
+    "Image": "002-astronaut"
   },
   {
     "Id": 3,
+    "TypeOfEmployment": 2,
+    "FirstName": "Darrell",
+    "MiddleName": "",
+    "LastName": "Porter",
+    "Specialist": "Waiter",
+    "Rate": 95000.000,
+    "Currency": "RUB",
+    "Image": "003-waiter"
+  },
+  {
+  "Id": 4,
+  "TypeOfEmployment": 1,
+  "FirstName": "Nikolay",
+  "MiddleName": "",
+  "LastName": "Ivanov",
+  "Specialist": "Gynecologist",
+  "Rate": 69069.000,
+  "Currency": "RUB",
+    "Image": "004-surgeon"
+},
+  {
+    "Id": 5,
+    "TypeOfEmployment": 1,
+    "FirstName": "Nikita",
+    "MiddleName": "",
+    "LastName": "Ivanov",
+    "Specialist": "Firefighter",
+    "Rate": 280000.000,
+    "Currency": "RUB",
+    "Image": "005-firefighter"
+  },
+  {
+    "Id": 6,
+    "TypeOfEmployment": 1,
     "FirstName": "Ekaterina",
     "MiddleName": "",
-    "LastName": "Grazhdankina",
-    "Specialist": "Intern",
-    "Rate": 30000.000,
-    "Currency": "RUB"
+    "LastName": "Grazdankina",
+    "Specialist": "Air-hostess",
+    "Rate": 15000.000,
+    "Currency": "EUR",
+    "Image": "006-air-hostess"
   }
 ]
